@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 550px;
+    height: 550px;
+     margin: 60px auto;
+    background-color: #E8E7E7; /*fondo plomo */
+
+}
+#contenedor{
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 13%;
+}
+
+#pictur>img{
+    margin-top: 28px;
+    margin-left: 27%;
+   
+    border-radius: 50%;
+                 /* padding-left: 18%;MARCO CHEVRE PARA IMAGEN
+                    padding-top: 12%; */
+                 /* border-radius: 20%; */
+}
+p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1E7AB8;
+    margin-top: 20px;
+}
+
+#div-iconos{
+    margin-top: 30px;
+}
+div>img{
+height: 30px;
+width: 30px;
+margin-left: 55px;
+margin-top: 8px;
+}
