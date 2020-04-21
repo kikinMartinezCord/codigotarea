@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+nav {
+    background-color: #FEFEDC;
+    height: 5vh;
+}
+
+header {
+    background-color: #FEDCFE;
+    height: 10vh;
+}
+
+#sidebar {
+    background-color: #DCDCFE;
+    height: 60vh;
+    float: left;
+    width: 33.33%;
+}
+
+#contenido {
+    background-color: #DCFEFE;
+    height: 60vh;
+    width: calc(100% - 33.33%);
+    float: left;
+
+}
+
+aside {
+        height: 20vh;
+        width: 33.33%;
+        float: left;
+}
+#aside1{
+    background-color:#FEDCDC ;
+
+}
+#aside2{
+    background-color:#DCFEDC ;
+    
+}
+#aside3{
+    background-color:#DCDCFE ;
+}
+footer{
+    background-color: #D2D2D2;
+    height: 5vh;
+}

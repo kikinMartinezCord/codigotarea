@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    height: 325px;
+    width: 850px;
+    border: 1px solid red;
+    margin: 0 auto;
+    background-color: #D4EADE;
+    position: relative;
+}
+#cajon{
+    background-color: #6BBDCD;
+    margin:40px 40px 0 40px;
+    height: 283px;
+    position: relative;
+}
+#letra-grande{
+    border: 1px solid blue;
+    width: 450px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+        text-align: left;
+        font-size: 75px;
+        font:bold;
+        color: white;
+   
+}
+#fondo-rojo{
+    background:#E72842;
+    width: 450px;
+    font-size: 50px;
+    font-family: "Bahnschrift Light", Helvetica, sans-serif;
+    color: #e9f690;
+
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+}
+#lorem{
+    position:absolute;
+    width: 250px;
+    height: 230px;
+    bottom: 0px;
+    right: 0px ;
+    background-color: #E6E88C;
+    border:1px solid violet;
+    padding: 10px 5px 5px 20px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+#transparente{
+    height: 100%;
+    width: 30%;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color:black;
+    
+    
+    border:1px solid green;
+}
